@@ -1,0 +1,16 @@
+# Ejercicio 4.2 Conversión de grados a parir de Kelvin
+
+# Importar Librerias o Bibliotecas: Son archivos que contienen funciones
+import math
+
+# ENTRADAS DE DATOS
+# Declarar o crear variables
+Kelvin = float(input("Ingresa los grados Kelvin"))
+
+# PROCESOS (Cálculos u operaciones matemáticas y/o Lógicas)
+Centígrados = Kelvin - 273.15
+Farenheit = (((Kelvin - 273.15) * 9) / 5) + 32
+
+# SALIDA DE DATOS
+print("El equivalente en Centígrados es", round(Centígrados, 2))
+print("El equivalente en Farenheit es", round(Farenheit, 2))

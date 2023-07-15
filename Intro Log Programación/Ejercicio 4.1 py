@@ -1,0 +1,17 @@
+# Ejercicio 4.1 Conversión de grados, a partir de centrígrados
+
+# Importar Librerias o Bibliotecas: Son archivos que contienen funciones
+import math
+
+# ENTRADAS DE DATOS
+# Declarar o crear variables
+Centrigrados= float(input("Ingresa los grados Celsius"))
+
+# PROCESOS (Cálculos u operaciones matemáticas y/o Lógicas)
+Kelvin= Centrigrados + 273.15
+Farenheit= (((9*Centrigrados))/5) + 32
+
+# SALIDA DE DATOS
+print ("El equivalente en Kelvin es", round(Kelvin,2))
+print ("El equivalente en Farenheit es", round(Farenheit,2))
+
